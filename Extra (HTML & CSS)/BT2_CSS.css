@@ -1,0 +1,13 @@
+::selection {
+    background-color: orange;
+} 
+
+.div1{
+    width: 450px;
+    height: 150px;
+    border: 2px solid #999;
+}
+
+.pcustom::selection{
+    background-color: green;
+}
