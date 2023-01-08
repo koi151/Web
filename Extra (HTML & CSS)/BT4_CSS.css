@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    padding: 20px;
+    border: 2px solid #aaa;
+    width: 40%;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+}
+
+.text1 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    backdrop-filter: blur(8px) brightness(80%);
+}
