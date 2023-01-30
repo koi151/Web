@@ -1,0 +1,41 @@
+.menu1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+    display: inline-block;
+    min-width: 250px;
+}
+
+.menu1 li {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.menu1 li:hover {
+    background-color: #0056A6;
+    color: white;
+}
+
+.menu2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu2 li {
+    display: inline-block;
+}
+
+.menu2 li a {
+    color: #000;
+    background-color: #DDD;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 5px;
+}
