@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.table1 {
+    border-collapse: collapse;
+}
+
+.table1 thead th{
+    background-color: #01987A;
+    color: white;
+    font-weight: bold;
+}
+
+.table1 th, .table1 td {
+    padding: 10px 20px;
+    border-bottom: 1px solid #DDD;
+}
