@@ -1,0 +1,143 @@
+.menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #E25300;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.menu1 li{
+    border-collapse: collapse;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.bigbox {
+    margin-top: 50px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #CCC;
+    height: 1500px;
+}
+
+.child {
+    position: absolute;
+    border-radius: 8px;
+}
+
+.box1 {
+    border-radius: 8px;
+    padding: 25px;
+    width: 50px;
+    height: 15px;
+    background-color: #D44E00;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+
+.box2 {
+    right: 20px;
+    border-radius: 8px;
+    padding: 25px;
+    width: 50px;
+    height: 15px;
+    background-color: #D10000;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+
+.box3 {
+    bottom: 30px;
+    right: 20px;
+    border-radius: 8px;
+    padding: 25px;
+    width: 50px;
+    height: 15px;
+    background-color: #328A00;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+
+.box4 {
+    bottom: 50px;
+    left: 50px;
+    border-radius: 8px;
+    padding: 25px;
+    width: 50px;
+    height: 15px;
+    background-color: #2A00D4;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+
+.content {
+    margin-top: 20px;
+    position: relative;
+    height: 300px;
+    border-radius: 6px;
+    background-color: #0065BC;
+    overflow: hidden;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #0000002d;
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #0000002d;
+}
+
+.content::first-line {
+    text-transform: uppercase;
+}
+
+.content::first-letter {
+    font-size: 40px;
+}
+
+.content .inner_content {
+    padding: 30px;
+    color: white;
+}
+
+.phone {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.phone a {
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    background-color: #137700;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
