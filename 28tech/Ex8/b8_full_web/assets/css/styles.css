@@ -354,4 +354,93 @@ header {
 /* End Responsive of section 2 */
 
 /*  END SECTION 2  */
+/*  SECTION 3  */
+.section_3 {
+    background-color: var(--color-five);
+    display: flex;
+}
+
+.section_3 strong {
+    font-size: 3rem;
+}
+
+.section_3 .container {
+    padding: 60px 0px;
+}
+
+.section_3 .text-box {
+    height: auto;
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.section_3 .container .text-box strong {
+    font-size: 3em;
+    color: var(--color-one);
+}
+
+.section_3 .container .text-box h5 {
+    margin-top: 0.9375em; 
+    font-size: 1.375em; 
+    font-weight: 500;
+    color: var(--color-four);
+}
+
+.section_3 .inner-wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.section_3 .inner-box {
+    width: 33%;
+    /* display: flex; */
+}
+
+.section_3 .inner-box a {
+    display: block;
+    color: var(--color-four);
+    font-size: 3.125em;
+    margin-bottom: 25px;
+    transition: all 0.4s;
+}
+
+.section_3 .inner-box a:hover {
+    font-size: 3.8em;
+    color: var(--color-six);
+}
+
+.section_3 .inner-box strong {
+    color: var(--color-four);
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.section_3 .inner-box p {
+    font-size: 1.1em;
+    color: var(--color-four);
+    position: relative;
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .section_3 .inner-wrap {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 991px) {
+    .section_3 .inner-wrap{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .section_3 .inner-box:nth-child(even) {
+        margin: 50px;
+    }
+
+}
+
+/*  END SECTION 3  */
+
 /*-----END BODY-----*/
