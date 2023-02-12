@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --color-one: #103178;
+    --color-two: #FEC700;
+    --color-three: #47b5ed;
+    --color-four: #5B6C8F;
+    --color-five: #F0F2F5;
+    --color-six: #13A05D;
+    --color-seven: #BBB;
+    --font: 'Inria Serif', serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    color: #FFF;
+    background-color: var(--color-one);
+    display: inline-block;
+    padding: 11px 32px;
+    border-radius: 45px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button:hover {
+    transition: 0.3s ease-in-out;
+    color: var(--color-one);
+    background-color: var(--color-five);
+    border: 2px solid var(--color-one);
+    font-weight: bold;
+}
+
+.button_1 {
+    background-color: var(--color-two);
+    margin: 20px 0px;
+}
+.button_1:hover {
+    color:  var(--color-two);
+    border: 2px solid var(--color-two)
+}
+
+.big_button {
+    padding: 16px 50px;
+}
+
+.section_2 .box-content .button-box {
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .section_2 .box-content .button-box {
+        left: 3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section_2 .box-content .button-box {
+        left: 5%;
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+}
+
+  /* End Responsive */
