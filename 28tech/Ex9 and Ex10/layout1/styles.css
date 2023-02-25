@@ -1,0 +1,44 @@
+.section-one .container {
+    padding: 3.125rem;
+    border-collapse: collapse;
+    padding-bottom: 0;
+}
+
+.section-one .text-wrapper {
+    padding: 1.5rem;
+}
+
+.section-one .text-wrapper span {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #6DBC7F;
+    font-size: 1.2rem;
+}
+
+.section-one .text-wrapper strong {
+    display: flex;
+    color: #3B3D40;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+}
+
+.section-one .text-wrapper p {
+    color: #AAAABE;
+    margin: 0;
+}
+
+.section-one .text-wrapper {
+    border-right: 1px solid #e2dede;
+}
+
+.section-one .row:nth-child(1) {
+    border-bottom: 1px solid #e2dede;
+}
+
+@media (max-width: 991px) {
+    .section-one .container .text-wrapper {
+        border-right: none;
+        border-bottom: 1px solid #e2dede;
+    }
+}
