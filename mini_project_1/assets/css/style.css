@@ -403,6 +403,67 @@
 /*  End Section four responsive  */
 /* End Section four */
 
+/* Section five */
+.section-five {
+    background-color: var(--color-three);
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+.section-five .inner-box {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-five h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05rem;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+.section-five .item-image {
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.section-five .item-image img {
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.section-five img:hover {
+    transform: scale(1.1);
+}
+
+.section-five .text-box {
+    text-align: left;
+    padding: 1.5rem 2rem;
+}
+
+.section-five .text-box strong {
+    color: var(--color-seven);
+    font-weight: 600;
+}
+
+.section-five .text-box h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+/*  Section five responsive  */
+@media (max-width: 991px) {
+    .section-five .spacing-justify {
+        margin: 5rem 0rem;
+    }
+}
 
 
 /* End Navigate bar */
