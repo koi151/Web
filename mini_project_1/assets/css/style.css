@@ -91,6 +91,7 @@
     }
 } 
 /* End Responsive */
+
 /* Section one */
 .section-one {
     position: relative;
@@ -411,6 +412,7 @@
 }
 
 .section-five .inner-box {
+    position: relative;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -458,12 +460,194 @@
     margin-top: 0.5rem;
 }
 
+.section-five .inner-box i {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    background-color: var(--color-four);
+    width: 3.8rem;
+    height: 3.8rem;
+    right: 1.6rem;
+    border-radius: 8px;
+    top: 12rem;
+    box-shadow: 1px 1px 29px 0 rgba(12, 40, 60, 0.08);
+    transition: all 0.5s;
+}
+
+.section-five .inner-box i:hover {
+    box-shadow: 5px 5px 5px rgba(3, 8, 12, 0.08);
+}
+
+#s5-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*  Section five responsive  */
 @media (max-width: 991px) {
     .section-five .spacing-justify {
         margin: 5rem 0rem;
     }
+
+    .section-five h1 {
+        margin-bottom: 0;
+    }
 }
 
+@media (max-width: 767px) {
+    .section-five h1 {
+        margin-bottom: 4rem;
+    }
+}
 
-/* End Navigate bar */
+/*  Section six  */
+.section-six {
+    padding: 5rem 0rem;
+    background-color: #1B2026;
+}
+
+.section-six .card-wrapper {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4rem;
+}
+
+.section-six .card-wrapper .text-wrapper strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-seven);
+}
+
+.section-six .card-wrapper .text-wrapper h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 1rem 0rem;
+}
+
+.section-six .card-wrapper .bar-wrapper:nth-child(2) {
+    margin: 1rem 0rem;
+}
+
+.section-six .card-wrapper .bar-wrapper .bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-three);
+    color: var(--color-seven);
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.section-six .card-wrapper .bar-wrapper .bar p {
+    font-size: 1.1rem;
+    letter-spacing: 0.03rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+}
+
+.section-six .card-wrapper .bar-wrapper .bar i {
+    font-size: 1.5rem;
+}
+
+.section-six .card-wrapper .bar-wrapper .bar .pointer {
+    position: absolute;
+    right: 1.5rem;
+}
+/*  Responsive  */
+@media (max-width: 991px) {
+    .section-six .card-wrapper .text-wrapper {
+        text-align: center;
+    }
+
+    .section-six .card-wrapper .text-wrapper h1 {
+        margin-bottom: 3rem;
+        margin-top: 0.2rem;
+    }
+}
+/*  End Responsive  */
+/*  End Section Six  */
+
+/*  Section Seven  */
+.section-seven {
+    padding: 5rem 0rem;
+    background-color: var(--color-three);
+}
+
+.section-seven .content-wrapper .text-wrapper {
+    text-align: center;
+}
+
+.section-seven .content-wrapper .text-wrapper strong {
+    color: var(--color-seven);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.section-seven .content-wrapper .text-wrapper h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.section-seven .content-wrapper .box-wrapper .row {
+    width: 100%;
+}
+
+.section-seven .content-wrapper .box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-four);
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.section-seven .content-wrapper .box-wrapper img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-seven .content-wrapper .box-wrapper h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.section-seven .content-wrapper .box-wrapper .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.section-seven .content-wrapper .box-wrapper .icon-wrapper a {
+    color: #000;
+}
+
+.section-seven .content-wrapper .box-wrapper .icon-wrapper i{
+    margin: 0rem 0.3rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--color-three);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.section-seven .content-wrapper .box-wrapper .icon-wrapper i:hover {
+    background-color: var(--color-six);
+    color: var(--color-four);
+}
+
+/*  End Section Seven  */
