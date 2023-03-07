@@ -651,3 +651,73 @@
 }
 
 /*  End Section Seven  */
+
+/*  Section Eight  */
+.section-eight {
+    padding-bottom: 10rem;
+    background-color: var(--color-three);
+}
+
+.section-eight .container .row img {
+    position: relative;
+    width: 100%;
+    height: 31.24rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.section-eight .box-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    margin-top: -2rem;
+    padding: 1.5rem;
+    background-color: var(--color-four);
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.section-eight .box-wrapper h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-seven);
+}
+
+.section-eight .box-wrapper strong {
+    font-size: 1.1rem;
+}
+
+.section-eight .box-wrapper button {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    padding: 1.2vw 3.5vw;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.section-eight .box-wrapper button:hover {
+    background-color: var(--color-six);
+    color: #000;
+    border: none;
+}
+
+@media (min-width: 991px) {
+    .section-eight .box-wrapper .adjust-20 {
+        flex: 0 0 20%;
+        max-width: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-eight .box-wrapper strong {
+        margin-bottom: 1rem;
+    }
+}

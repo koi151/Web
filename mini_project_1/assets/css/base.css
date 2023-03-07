@@ -57,3 +57,11 @@ a:hover {
 .hover-1:hover {
     color: var(--color-two);
 }
+
+.adjust-20 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
